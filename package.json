@@ -1,0 +1,19 @@
+{
+  "name": "threejs-shader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@types/three": "^0.176.0",
+    "cannon-es": "^0.20.0",
+    "lil-gui": "^0.20.0",
+    "three": "^0.176.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "private": true
+}
