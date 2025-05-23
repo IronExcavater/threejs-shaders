@@ -3,11 +3,11 @@ import {OrbitControls} from 'three/addons';
 import * as CANNON from 'cannon-es';
 import Event from './Event';
 import CamouflageMaterial from './CamouflageMaterial';
+import CamouflageObject from './CamouflageObject';
 import {getEnvironment, preloadResources} from './resources';
 import initGui from './gui';
 
 import '/styles/app.css';
-import CamouflageObject from "./CamouflageObject";
 
 
 await preloadResources();
