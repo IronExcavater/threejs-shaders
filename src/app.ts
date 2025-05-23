@@ -2,9 +2,8 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons';
 import * as CANNON from 'cannon-es';
 import Event from './Event';
-import {SphereObject} from './GameObject';
 import CamouflageMaterial from './CamouflageMaterial';
-import {getEnvironment, getTextureSet, preloadResources} from './resources';
+import {getEnvironment, preloadResources} from './resources';
 import initGui from './gui';
 
 import '/styles/app.css';
